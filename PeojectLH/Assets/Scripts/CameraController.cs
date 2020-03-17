@@ -27,7 +27,7 @@ public class CameraController : MonoBehaviour {
     void LateUpdate()
     {
         Quaternion camTurnAngleRightandLeft = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * RotationsSpeed, Vector3.up);
-        Quaternion camTurnAngleUpandDown = Quaternion.AngleAxis(-Input.GetAxis("Mouse Y") * RotationsSpeed, Vector3.right);
+        Quaternion camTurnAngleUpandDown = Quaternion.AngleAxis(-Input.GetAxis("Mouse Y") * RotationsSpeed, PlayerTransform.right);
 
         _cameraOffset = camTurnAngleUpandDown * camTurnAngleRightandLeft * _cameraOffset;
 
