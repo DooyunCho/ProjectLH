@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
             moveDirection = (transform.forward * vertical) + (transform.right * horizontal);
 
             // 대각선 이동 보정
-            if (vertical > 0.75 && horizontal > 0.75)
+            if (vertical != 0.0f && horizontal != 0.0f)
             {
                 moveDirection = moveDirection.normalized;
             }
