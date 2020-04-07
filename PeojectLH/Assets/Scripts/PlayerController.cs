@@ -23,8 +23,16 @@ public class PlayerController : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
-        Movement();
+	void Update ()
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
+        {
+
+        }
+        else
+        {
+            Movement();
+        }
     }
 
     void Movement()
@@ -64,7 +72,6 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetFloat("Horizontal", horizontal);
         animator.SetFloat("Vertical", vertical);
-        Debug.Log("animator: " + animator);
     }
 
     private bool IsCheckGrounded()
@@ -80,6 +87,7 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(transform.position + Vector3.up * 0.1f, Vector3.down * maxDistance, Color.red);
         // Raycast의 hit 여부로 판정
         // 지상에만 충돌로 레이어를 지정
+        Debug.Log(Physics.Raycast(ray, maxDistance, 9));
         return Physics.Raycast(ray, maxDistance, 9);
     }
 }

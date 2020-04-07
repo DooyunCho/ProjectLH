@@ -61,43 +61,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\BloomModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\FogModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\GrainModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\PostProcessingFactory.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\PostProcessingInspector.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\PostProcessingModelEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\PostProcessingMonitor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Utils\CurveEditor.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Utils\EditorResources.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Utils\FxStyles.cs" />
-    <Compile Include="Assets\Downloads\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
-    <Reference Include="Assembly-UnityScript">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\PostProcessingFactory.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\PostProcessingInspector.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\PostProcessingMonitor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Utils\CurveEditor.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\Downloads\Sun_Temple\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Development/ProjectLH/PeojectLH/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -349,9 +346,6 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:/Development/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="PlayMaker">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Plugins/PlayMaker/PlayMaker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/dooyu/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
