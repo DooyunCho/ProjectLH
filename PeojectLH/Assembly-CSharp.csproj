@@ -134,6 +134,7 @@
     <Compile Include="Assets\Scripts\SimpleRPG\Script\CombatEvents.cs" />
     <Compile Include="Assets\Scripts\SimpleRPG\Script\ConsumableController.cs" />
     <Compile Include="Assets\Scripts\SimpleRPG\Script\DropTable.cs" />
+    <Compile Include="Assets\Scripts\SimpleRPG\Script\Enemies\BlackKnight.cs" />
     <Compile Include="Assets\Scripts\SimpleRPG\Script\Enemies\IEnemy.cs" />
     <Compile Include="Assets\Scripts\SimpleRPG\Script\Enemies\Orc_Base.cs" />
     <Compile Include="Assets\Scripts\SimpleRPG\Script\Enemies\Slim.cs" />

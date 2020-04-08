@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(transform.position + Vector3.up * 0.1f, Vector3.down * maxDistance, Color.red);
         // Raycast의 hit 여부로 판정
         // 지상에만 충돌로 레이어를 지정
-        Debug.Log(Physics.Raycast(ray, maxDistance, 9));
+        //Debug.Log(Physics.Raycast(ray, maxDistance, 9));
         return Physics.Raycast(ray, maxDistance, 9);
     }
 }

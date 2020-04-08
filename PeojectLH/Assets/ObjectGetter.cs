@@ -11,12 +11,16 @@ public class ObjectGetter : MonoBehaviour
     {
         if (other.tag == "Enermy")
         {
-            if (!colliders.Contains(other)) { colliders.Add(other); }
+            if (!colliders.Contains(other)) {
+                Debug.Log(other.name + " In Attack Area.");
+                colliders.Add(other);
+            }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
         colliders.Remove(other);
+        Debug.Log(other.name + " out Attack Area.");
     }
 }
