@@ -11,10 +11,11 @@ public class BlackKnight: MonoBehaviour, IEnemy {
     public DropTable DropTable { get; set; }
     public Spawner Spawner { get; set; }
     public PickupItem pickupItem;
+    public float speed;
     private float aggroRange = 10f;
+    private float attackCoolTime = 1f;
 
     private Player player;
-    private NavMeshAgent navAgent;
     private CharacterStats characterStats;
     private Collider[] withInAggroColliders;
 
@@ -31,7 +32,6 @@ public class BlackKnight: MonoBehaviour, IEnemy {
         };
 
         Experience = 20;
-        navAgent = GetComponent<NavMeshAgent>();
         characterStats = new CharacterStats(6, 10, 2, 4);
         currentHealth = maxHealth;
 
@@ -44,18 +44,43 @@ public class BlackKnight: MonoBehaviour, IEnemy {
 
         if (withInAggroColliders.Length > 0)
         {
-            ChasePlayer(withInAggroColliders[0].GetComponent<Player>());
+            player = withInAggroColliders[0].GetComponent<Player>();
+
+            if (Vector3.Distance(transform.position, player.transform.position) <= 2.0f)
+            {
+                animator.SetFloat("Vertical", 0.0f);
+
+                if (!IsInvoking("PerformAttack"))
+                {
+                    InvokeRepeating("PerformAttack", attackCoolTime, 2.5f);
+                }
+            }
+            else
+            {
+                CancelInvoke("PerformAttack");
+                ChasePlayer(player.GetComponent<Player>());
+            }
         }
         else if(player != null)
         {
-            navAgent.SetDestination(player.transform.position);
             CancelInvoke("PerformAttack");
+        }
+        else
+        {
+            animator.SetFloat("Vertical", 0.0f);
         }
     }
     
-	public void PerformAttack () {
-        player.TakeDamage(5);
+	public void PerformAttack ()
+    {
+        animator.SetTrigger("Attack");
 	}
+
+    public void GiveDamage()
+    {
+        Debug.Log(this.name + " give " + 5 + " damage.");
+        player.TakeDamage(5);
+    }
     
     public void TakeDamage (int amount, Transform target)
     {
@@ -77,20 +102,12 @@ public class BlackKnight: MonoBehaviour, IEnemy {
 
     void ChasePlayer(Player player)
     {
-        this.player = player;
-        navAgent.SetDestination(player.transform.position);
+        Vector3 wayPointPos = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
+        
+        transform.position = Vector3.MoveTowards(transform.position, wayPointPos, speed * Time.deltaTime);
+        transform.LookAt(player.transform);
 
-        if (navAgent.remainingDistance <= navAgent.stoppingDistance)
-        {
-            if (!IsInvoking("PerformAttack"))
-            {
-                InvokeRepeating("PerformAttack", 2f, 2.5f);
-            }
-        }
-        else
-        {
-            CancelInvoke("PerformAttack");
-        }
+        animator.SetFloat("Vertical", 1.0f);
     }
 
     public void Die()
@@ -98,6 +115,7 @@ public class BlackKnight: MonoBehaviour, IEnemy {
         //DropLoot();
         CombatEvents.EnemyDied(this);
         animator.SetTrigger("Die");
+        aggroRange = 0.0f;
         //this.Spawner.Respawn();
         //Destroy(gameObject);
     }

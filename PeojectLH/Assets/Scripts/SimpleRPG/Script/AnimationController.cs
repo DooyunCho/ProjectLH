@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,7 +18,7 @@ public class AnimationController : MonoBehaviour {
             Instance = this;
         }
 
-        animator = transform.Find("PlayerModel").GetComponent<Animator>();
+        animator = transform.Find("Model").GetComponent<Animator>();
     }
 
     public bool isTrigger(string triggerName)
@@ -40,5 +41,10 @@ public class AnimationController : MonoBehaviour {
             //Debug.Log("reset trigger: " + triggerName);
             animator.ResetTrigger(triggerName);
         }
+    }
+
+    public void setBool(string paramName, bool value)
+    {
+        animator.SetBool(paramName, value);
     }
 }

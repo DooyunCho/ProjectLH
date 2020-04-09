@@ -358,11 +358,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4585863223933636}
+  - component: {fileID: 65701281467231048}
   - component: {fileID: 33064682639004440}
-  - component: {fileID: 65602332539706558}
   - component: {fileID: 114560775873363722}
   m_Layer: 0
-  m_Name: AttakArea
+  m_Name: AttackArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,13 +622,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4444865983379560}
   - component: {fileID: 114733729623370094}
-  - component: {fileID: 136662110363798230}
   - component: {fileID: 143441449132125382}
   - component: {fileID: 114849546002675566}
   - component: {fileID: 114370627608370978}
-  m_Layer: 0
+  - component: {fileID: 114130675870208406}
+  m_Layer: 10
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1616,8 +1616,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1290233121611404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.077, y: 1.452, z: 1.103}
-  m_LocalScale: {x: 1.5242, y: 2.674, z: 1}
+  m_LocalPosition: {x: -0.086, y: 1.452, z: 1.233}
+  m_LocalScale: {x: 1.5242, y: 2.674, z: 1.6555}
   m_Children: []
   m_Father: {fileID: 4444865983379560}
   m_RootOrder: 2
@@ -2601,13 +2601,13 @@ MeshCollider:
   m_GameObject: {fileID: 1639711380953866}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 732fd6b87c511a048b75ca444dcf1ba4, type: 3}
---- !u!65 &65602332539706558
+--- !u!65 &65701281467231048
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2637,6 +2637,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114130675870208406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1551044592600806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2232299ee959a374b9ddb81384f4e27b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114370627608370978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2699,19 +2710,6 @@ MonoBehaviour:
   MaxHealth: 100
   CurrentMana: 100
   MaxMana: 100
---- !u!136 &136662110363798230
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1551044592600806}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.6, z: 0}
 --- !u!137 &137151724996021936
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

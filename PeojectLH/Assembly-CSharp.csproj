@@ -121,10 +121,11 @@
     <Compile Include="Assets\Downloads\Sun_Temple\Scripts\FPSController\CursorLock.cs" />
     <Compile Include="Assets\Downloads\Sun_Temple\Scripts\MoveToLayer.cs" />
     <Compile Include="Assets\Downloads\Sun_Temple\Scripts\WindSwaySimple.cs" />
-    <Compile Include="Assets\EventPasser.cs" />
-    <Compile Include="Assets\ObjectGetter.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\Player_AttackController.cs" />
+    <Compile Include="Assets\Scripts\EventPasser.cs" />
+    <Compile Include="Assets\Scripts\EventPasser_Enermy.cs" />
+    <Compile Include="Assets\Scripts\ObjectGetter.cs" />
+    <Compile Include="Assets\Scripts\PlayerCombatController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SimpleRPG\Script\ActionItem.cs" />
     <Compile Include="Assets\Scripts\SimpleRPG\Script\ActionItems\SignPost.cs" />

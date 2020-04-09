@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
     public int CurrentMana;
     public int MaxMana;
     public PlayerLevel playerLevel { get; set; }
+    private ObjectGetter objectGetter;
 
     void Start()
     {
@@ -17,18 +18,20 @@ public class Player : MonoBehaviour {
         recoveryMana(this.MaxMana);
         UIEventHandler.PlayerLevelChanged();
         characterStats = new CharacterStats(10, 10, 10, 10);
+        
+        objectGetter = transform.GetChild(2).GetComponent<ObjectGetter>();
     }
 
     public void TakeDamage(int amount)
     {
-        //Debug.Log("Player takes: " + amount + " damage!");
+        Debug.Log("Player takes: " + amount + " damage!");
         CurrentHealth -= amount;
         if (CurrentHealth <= 0)
         {
             Die();
         }
-        UIEventHandler.HealthChanged(this.CurrentHealth, this.MaxHealth);
-        AnimationController.Instance.setTrigger("Base_Hit", true);
+        //UIEventHandler.HealthChanged(this.CurrentHealth, this.MaxHealth);
+        AnimationController.Instance.setTrigger("Hit", true);
     }
 
     public void recoveryHealth(int amount)
@@ -62,5 +65,19 @@ public class Player : MonoBehaviour {
         Debug.Log("Player dead. Reset health.");
         this.CurrentHealth = this.MaxHealth;
         UIEventHandler.HealthChanged(this.CurrentHealth, this.MaxHealth);
+    }
+
+    public void attack()
+    {
+        if (objectGetter == null)
+            objectGetter = transform.GetChild(2).GetComponent<ObjectGetter>();
+
+        List<Collider> targetObjects = objectGetter.GetComponent<ObjectGetter>().GetColliders();
+
+        for (int i = 0; i < targetObjects.Count; i++)
+        {
+            Collider collision = targetObjects[i];
+            collision.transform.GetComponent<IEnemy>().TakeDamage(40, this.transform);
+        }
     }
 }

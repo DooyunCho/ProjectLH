@@ -51,8 +51,13 @@ public class Orc_Base : MonoBehaviour, IEnemy {
     
 	public void PerformAttack () {
         player.TakeDamage(5);
-	}
-    
+    }
+
+    public void GiveDamage()
+    {
+        player.TakeDamage(5);
+    }
+
     public void TakeDamage (int amount, Transform target) {
         Debug.Log(this.name + " take " + amount + " damage.");
         aggroRange = 20;

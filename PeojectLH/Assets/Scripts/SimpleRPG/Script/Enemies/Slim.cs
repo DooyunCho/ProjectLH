@@ -51,8 +51,13 @@ public class Slim : MonoBehaviour, IEnemy {
     
 	public void PerformAttack () {
         player.TakeDamage(5);
-	}
-    
+    }
+
+    public void GiveDamage()
+    {
+        player.TakeDamage(5);
+    }
+
     public void TakeDamage (int amount, Transform target) {
         transform.LookAt(target);
         Debug.Log(this.name + " take " + amount + " damage.");

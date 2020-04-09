@@ -9,4 +9,7 @@ public interface IEnemy {
     void Die();
     void TakeDamage(int amount, Transform target);
     void PerformAttack();
+
+    // event
+    void GiveDamage();
 }
