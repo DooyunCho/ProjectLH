@@ -25,6 +25,12 @@ public class AnimationController : MonoBehaviour {
     {
         return animator.GetBool(triggerName);
     }
+
+    public bool getBool(string valueName)
+    {
+        return animator.GetBool(valueName);
+    }
+
     public void Rebind()
     {
         animator.Rebind();
@@ -46,5 +52,10 @@ public class AnimationController : MonoBehaviour {
     public void setBool(string paramName, bool value)
     {
         animator.SetBool(paramName, value);
+    }
+
+    public AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex)
+    {
+        return animator.GetCurrentAnimatorStateInfo(layerIndex);
     }
 }

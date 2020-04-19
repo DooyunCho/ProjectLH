@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EventPasser_Enermy : MonoBehaviour {
-    public void attack()
+    public void SwordAttack()
     {
         GetComponentInParent<IEnemy>().GiveDamage();
     }

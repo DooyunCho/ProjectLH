@@ -67,7 +67,7 @@ public class Player : MonoBehaviour {
         UIEventHandler.HealthChanged(this.CurrentHealth, this.MaxHealth);
     }
 
-    public void attack()
+    public void SwordAttack()
     {
         if (objectGetter == null)
             objectGetter = transform.GetChild(2).GetComponent<ObjectGetter>();
@@ -78,6 +78,20 @@ public class Player : MonoBehaviour {
         {
             Collider collision = targetObjects[i];
             collision.transform.GetComponent<IEnemy>().TakeDamage(40, this.transform);
+        }
+    }
+
+    public void ShieldAttack()
+    {
+        if (objectGetter == null)
+            objectGetter = transform.GetChild(2).GetComponent<ObjectGetter>();
+
+        List<Collider> targetObjects = objectGetter.GetComponent<ObjectGetter>().GetColliders();
+
+        for (int i = 0; i < targetObjects.Count; i++)
+        {
+            Collider collision = targetObjects[i];
+            collision.transform.GetComponent<IEnemy>().TakeDamage(10, this.transform);
         }
     }
 }

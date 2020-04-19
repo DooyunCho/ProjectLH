@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6189025059663433631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 193710, guid: 18f28548c697fa143b2ede12f401d7f3,
+    type: 2}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6189025059663433628}
+  - component: {fileID: 6189025059073014393}
+  - component: {fileID: 6189025059663433630}
+  - component: {fileID: 6189025059663433629}
+  - component: {fileID: 6189025059663433627}
+  m_Layer: 0
+  m_Name: GameStateManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6189025059663433628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 431084, guid: 18f28548c697fa143b2ede12f401d7f3,
+    type: 2}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189025059663433631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6189025059073014393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11483498, guid: 18f28548c697fa143b2ede12f401d7f3,
+    type: 2}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189025059663433631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496dccc9ffea546b79bc600b67239364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  startPosition: {fileID: 0}
+  characterNameMaxLength: 16
+  playerClasses:
+  - {fileID: 1808668199382110, guid: 0a86265c3d83b4906931b47806faf663, type: 3}
+  - {fileID: 3030986670744138294, guid: 4dd639759ade0704d85ef2ae1fd75cc2, type: 3}
+  - {fileID: 5781205633141041046, guid: b3b8fcb0e5654254cb743e011d89289a, type: 3}
+--- !u!114 &6189025059663433630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189025059663433631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55678a1a213ab4f1b93043365d7eeedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iterations: 5000
+--- !u!114 &6189025059663433629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189025059663433631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9d09bf6166248f8b734cd45734f461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recommended: 2018.4.0f1
+  download: https://unity3d.com/unity/qa/lts-releases
+--- !u!114 &6189025059663433627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189025059663433631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3cf03c51ae5478ba91e7318f7e6cc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFile: SaveGame.sqlite
