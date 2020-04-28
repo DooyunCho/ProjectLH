@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
+    private bool isRun = false;
 
     // Use this for initialization
     void Start ()
@@ -25,6 +26,13 @@ public class PlayerController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        if (Input.GetKeyUp(KeyCode.R))
+        {
+            isRun = !isRun;
+            Debug.Log("Run = " + isRun);
+            AnimationController.Instance.setBool("Run", isRun);
+        }
+
         if (animator.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
         {
 
@@ -52,7 +60,7 @@ public class PlayerController : MonoBehaviour
                 moveDirection = moveDirection.normalized;
             }
 
-            moveDirection *= speed;
+            moveDirection *= (speed * (isRun ? 2 : 1));
 
             if (Input.GetButton("Jump"))
             {
