@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_5;UNITY_2018_4;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;NET_LEGACY;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_5;UNITY_2018_4;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;NET_LEGACY;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;AQUAS_2020_PRESENT;UNITY_POST_PROCESSING_STACK_V2</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -61,30 +61,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\CliffAppearanceInspector.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\FAE_Core.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\FoliageShaderGUI.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\GrassShaderGUI.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\GUIHelper.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\HelpWindow.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\PigmentMapGeneratorInspector.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\TreeBranchShaderGUI.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\TreeTrunkShaderGUI.cs" />
-    <Compile Include="Assets\Downloads\Fantasy Adventure Environment\Scripts\Editor\WindControllerInspector.cs" />
+    <Compile Include="Assets\bg\AQUAS 2020\Scripts\Editor\AQUAS_AddDefine.cs" />
+    <Compile Include="Assets\bg\AQUAS 2020\Scripts\Editor\AQUAS_Gaia.cs" />
+    <Compile Include="Assets\bg\AQUAS 2020\Scripts\Editor\AQUAS_ReadOnlyPropertyDrawer.cs" />
+    <Compile Include="Assets\bg\AQUAS 2020\Scripts\Editor\AQUAS_RemoveDefine.cs" />
+    <Compile Include="Assets\bg\AQUAS 2020\Scripts\Editor\AQUAS_SetupWizard.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\CliffAppearanceInspector.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\FAE_Core.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\FoliageShaderGUI.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\GrassShaderGUI.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\GUIHelper.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\HelpWindow.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\PigmentMapGeneratorInspector.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\TreeBranchShaderGUI.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\TreeTrunkShaderGUI.cs" />
+    <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\Editor\WindControllerInspector.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -330,46 +341,46 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Events">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Events.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Events.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Web">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Web.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Web.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.OpenWorldNature">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Editor.OpenWorldNature.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Editor.OpenWorldNature.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Nature">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Nature.Editor">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.Editor.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Community">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Community.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Community.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.PackageManager">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.PackageManager.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.PackageManager.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Packages">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Assets/Downloads/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Packages.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Packages.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/Development/ProjectLH/PeojectLH/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
