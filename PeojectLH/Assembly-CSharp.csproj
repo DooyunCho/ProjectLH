@@ -100,6 +100,11 @@
     <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\VegetationStudioPro\FAETreeShaderController.cs" />
     <Compile Include="Assets\bg\Fantasy Adventure Environment\Scripts\WindController.cs" />
     <Compile Include="Assets\Downloads\HeroicTraversal\SmoothFollow.cs" />
+    <Compile Include="Assets\DynamicBone\Demo\DynamicBoneDemo1.cs" />
+    <Compile Include="Assets\DynamicBone\Scripts\DynamicBone.cs" />
+    <Compile Include="Assets\DynamicBone\Scripts\DynamicBoneCollider.cs" />
+    <Compile Include="Assets\DynamicBone\Scripts\DynamicBoneColliderBase.cs" />
+    <Compile Include="Assets\DynamicBone\Scripts\DynamicBonePlaneCollider.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\EventPasser.cs" />
     <Compile Include="Assets\Scripts\EventPasser_Enermy.cs" />
@@ -234,6 +239,7 @@
     <None Include="Assets\bg\Open World Nature\Plugins\com.VisualDesignCafe.PackageManager\VisualDesignCafe.Packages.xml" />
     <None Include="Assets\bg\AQUAS 2020\Shaders\Water\Frontface\AQUAS_Opaque_Front.shader" />
     <None Include="Assets\bg\Fantasy Adventure Environment\Shaders\PigmentMapComposite.shader" />
+    <None Include="Assets\DynamicBone\ReadMe.txt" />
     <None Include="Assets\bg\Fantasy Adventure Environment\Shaders\FAE_Sunshaft.shader" />
     <None Include="Assets\bg\Open World Nature\Plugins\com.VisualDesignCafe.OpenWorldNature\VisualDesignCafe.Nature.Editor.xml" />
     <None Include="Assets\bg\Open World Nature\Plugins\com.VisualDesignCafe.PackageManager\VisualDesignCafe.Editor.PackageManager.xml" />
