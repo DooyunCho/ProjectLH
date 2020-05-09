@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        animator = transform.GetChild(1).GetComponent<Animator>();
+        animator = transform.Find("Model").GetComponent<Animator>();//transform.GetChild(1).GetComponent<Animator>();
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        if (IsCheckGrounded())
+        if (characterController.isGrounded)
         {
             animator.SetBool("Jump", false);
 
