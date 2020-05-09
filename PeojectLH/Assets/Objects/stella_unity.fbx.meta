@@ -432,6 +432,7 @@ ModelImporter:
     13700116: r_hand1
     13700118: shirt
     13700120: shose
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -445,7 +446,9 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'Hip_L' : position error = 24.420563
+      mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -1278,8 +1281,8 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: Hip_L
       parentName: Root_M
-      position: {x: 0.019968944, y: -0.008224023, z: 0.08196866}
-      rotation: {x: 0.98320943, y: -0.021825783, z: 0.019875402, w: -0.18007734}
+      position: {x: 0.04399997, y: -0.010000002, z: 0.083}
+      rotation: {x: 0.98905104, y: -0.022526711, z: 0.019077376, w: -0.14459132}
       scale: {x: 1, y: 1, z: 1}
     - name: Knee_L
       parentName: Hip_L
@@ -1303,8 +1306,8 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: Hip_R
       parentName: Root_M
-      position: {x: 0.019968944, y: -0.008224023, z: -0.08196866}
-      rotation: {x: 0.021825783, y: 0.98320943, z: -0.18007734, w: -0.019875402}
+      position: {x: 0.042999983, y: -0.008999992, z: -0.082}
+      rotation: {x: 0.0230097, y: 0.99244153, z: -0.11911541, w: -0.018491952}
       scale: {x: 1, y: 1, z: 1}
     - name: Knee_R
       parentName: Hip_R
