@@ -15,8 +15,8 @@ MonoBehaviour:
   _displayName: Nature Renderer
   _version:
     _bundleIdentifier: com.VisualDesignCafe.NatureRenderer
-    _versionNumber: 1.1.10
-    _buildNumber: 29
+    _versionNumber: 1.1.5
+    _buildNumber: 15
   _downloadInBackground: 1
   _autoUpdate: 0
   _priority: 9000

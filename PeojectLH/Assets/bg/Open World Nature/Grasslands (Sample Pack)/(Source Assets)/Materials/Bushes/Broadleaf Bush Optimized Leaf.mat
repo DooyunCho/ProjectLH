@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Broadleaf Bush Optimized Leaf
-  m_Shader: {fileID: 4800000, guid: de028222d59fa5c46b9defb9b446e7f4, type: 3}
-  m_ShaderKeywords: _BAKEDMASK_ON
+  m_Shader: {fileID: 4800000, guid: b763b4b71a46bae4fa50aca8b209a55f, type: 3}
+  m_ShaderKeywords: _BAKEDMASK_ON _COLOR_TINT _DEBUG_NONE _SURFACE_MAP_MASK _WIND_CONTROL_BAKED
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: e4e123e1fd77b9843baa3b0b8351235c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 97b9212b2afc7fe4a90c627035136acd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Atlas:
@@ -49,6 +49,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 97b9212b2afc7fe4a90c627035136acd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 70370d4a14779ec4185e4c3cf6b6b91c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -87,6 +91,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Translucency:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -120,7 +128,9 @@ Material:
     - _AmbientOcclusion: 0
     - _BakedMask: 1
     - _BumpScale: 1
+    - _ColorVariationSpread: 0.2
     - _Cutoff: 0.15
+    - _DEBUG: 3
     - _DebugGust: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -135,6 +145,8 @@ Material:
     - _MaxWindStrength: 0.1164738
     - _Metallic: 0
     - _Mode: 0
+    - _ObjectHeight: 0.5
+    - _ObjectRadius: 0.5
     - _OcclusionProbesIndirect: 1
     - _OcclusionProbesStrength: 0.7058824
     - _OcclusionStrength: 1
@@ -151,11 +163,18 @@ Material:
     - _TransScattering: 26.4
     - _TransShadow: 0.887
     - _Translucency: 1
+    - _TranslucencyDistortion: 0.5
+    - _TranslucencyScattering: 2
+    - _TurbulenceStrength: 1
     - _UVMask: 0
     - _UVSec: 0
     - _UseLegacyVertexColors: 0
     - _UseSpeedTreeWind: 0
+    - _VertexNormalStrength: 1
+    - _WIND_CONTROL: 0
     - _WindAmplitudeMultiplier: 1
+    - _WindStrength: 1
+    - _WindVariation: 0.3
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
@@ -164,12 +183,17 @@ Material:
     - _Color0: {r: 0.4980389, g: 0.4980389, b: 0.4980389, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlossRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _HSL: {r: 0, g: 0, b: 0, a: 0}
+    - _HSLVariation: {r: 0, g: 0, b: 0, a: 0}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.184}
     - _OcclusionRemap: {r: 0.71005917, g: 1, b: 0, a: 0}
     - _Shiver: {r: 1, g: 2, b: 1, a: 1}
+    - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _Tint: {r: 1, g: 1, b: 1, a: 0}
-    - _TranslucencyColor: {r: 0, g: 0, b: 0, a: 0}
+    - _TintVariation: {r: 1, g: 1, b: 1, a: 1}
+    - _TranslucencyColor: {r: 1, g: 1, b: 1, a: 1}
     - _TranslucencyTint: {r: 0.6901961, g: 0.7647059, b: 0.67058825, a: 0}
     - _TransmissionColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TrunkBendFactor: {r: 2, g: 0.3, b: 0, a: 0}
     - _Variationcolor: {r: 1, g: 0.5, b: 0, a: 0.184}
     - _WindDirectionAndStrength: {r: 1, g: 1, b: 1, a: 0.25}

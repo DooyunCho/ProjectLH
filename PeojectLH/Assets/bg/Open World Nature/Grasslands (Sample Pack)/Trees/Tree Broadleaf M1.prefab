@@ -152,18 +152,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8073038897144706155}
     m_Modifications:
-    - target: {fileID: 100000, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
-      propertyPath: m_Name
-      value: tree_Broadleaf_M1_LOD0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 88
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 88
-      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c912c6d608cde384d8c0eefa9b0102aa, type: 2}
+    - target: {fileID: 2300000, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e2fe1b6ca53de71428562e446d83b05a, type: 2}
     - target: {fileID: 400000, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -208,6 +204,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
+      propertyPath: m_Name
+      value: tree_Broadleaf_M1_LOD0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 88
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f57a7a8c9c38d6429d7c4450f8c11bc, type: 3}
 --- !u!4 &662301501534892291 stripped
@@ -229,6 +237,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8073038897144706155}
     m_Modifications:
+    - target: {fileID: 2300000, guid: ddf95129fa33b7b40817dfafd6995006, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c912c6d608cde384d8c0eefa9b0102aa, type: 2}
+    - target: {fileID: 2300000, guid: ddf95129fa33b7b40817dfafd6995006, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e2fe1b6ca53de71428562e446d83b05a, type: 2}
     - target: {fileID: 100000, guid: ddf95129fa33b7b40817dfafd6995006, type: 3}
       propertyPath: m_Name
       value: tree_Broadleaf_M1_LOD1

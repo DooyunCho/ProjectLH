@@ -152,14 +152,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4403948553059956}
     m_Modifications:
-    - target: {fileID: 100004, guid: 1d09a385de6700d44a5091f151e39192, type: 3}
-      propertyPath: m_Name
-      value: tree_Shrub_Oak_LOD0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 1d09a385de6700d44a5091f151e39192, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 88
-      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 1d09a385de6700d44a5091f151e39192, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -204,6 +196,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 1d09a385de6700d44a5091f151e39192, type: 3}
+      propertyPath: m_Name
+      value: tree_Shrub_Oak_LOD0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 1d09a385de6700d44a5091f151e39192, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1d09a385de6700d44a5091f151e39192, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a09b130dfa1c574abffa4a0fe534982, type: 2}
+    - target: {fileID: 2300000, guid: 1d09a385de6700d44a5091f151e39192, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b3f3923638f86946921ea42345c1b9e, type: 2}
     - target: {fileID: 100002, guid: 1d09a385de6700d44a5091f151e39192, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 88
@@ -285,6 +293,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0f63bb3b3812f1c4ea9f0ebfca296de3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a09b130dfa1c574abffa4a0fe534982, type: 2}
+    - target: {fileID: 2300000, guid: 0f63bb3b3812f1c4ea9f0ebfca296de3, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b3f3923638f86946921ea42345c1b9e, type: 2}
     - target: {fileID: 100002, guid: 0f63bb3b3812f1c4ea9f0ebfca296de3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 88

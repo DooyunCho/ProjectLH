@@ -180,10 +180,10 @@ MonoBehaviour:
     value: {x: 50, y: 95}
   minLuminance:
     overrideState: 1
-    value: 0
+    value: -0.6
   maxLuminance:
     overrideState: 1
-    value: 0
+    value: 1
   keyValue:
     overrideState: 1
     value: 1
@@ -214,7 +214,7 @@ MonoBehaviour:
     value: 1
   shutterAngle:
     overrideState: 1
-    value: 110
+    value: 270
   sampleCount:
     overrideState: 1
     value: 10
@@ -243,7 +243,7 @@ MonoBehaviour:
     defaultState: 1
   tonemapper:
     overrideState: 1
-    value: 0
+    value: 2
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -291,7 +291,7 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   contrast:
-    overrideState: 1
+    overrideState: 0
     value: 0
   mixerRedOutRedIn:
     overrideState: 0

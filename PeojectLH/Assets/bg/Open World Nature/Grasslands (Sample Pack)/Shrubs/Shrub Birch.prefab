@@ -166,6 +166,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4572443160687716}
     m_Modifications:
+    - target: {fileID: 2300000, guid: 2fb8cd789c71bcd43a7948bbf1e51e81, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 551a2af77188db54193a03a0f0744f8e, type: 2}
+    - target: {fileID: 2300000, guid: 2fb8cd789c71bcd43a7948bbf1e51e81, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50ec604a733c87a44b49d83aea21a61a, type: 2}
     - target: {fileID: 100002, guid: 2fb8cd789c71bcd43a7948bbf1e51e81, type: 3}
       propertyPath: m_Name
       value: tree_Shrub_Birch_LOD0
@@ -295,6 +303,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: f9cc1675e94eed7408c31e1b2c4f5143, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 551a2af77188db54193a03a0f0744f8e, type: 2}
+    - target: {fileID: 2300000, guid: f9cc1675e94eed7408c31e1b2c4f5143, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50ec604a733c87a44b49d83aea21a61a, type: 2}
     - target: {fileID: 100000, guid: f9cc1675e94eed7408c31e1b2c4f5143, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 88

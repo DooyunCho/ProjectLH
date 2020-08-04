@@ -349,6 +349,15 @@
     <Reference Include="VisualDesignCafe.Editor.Web">
       <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Web.dll</HintPath>
     </Reference>
+    <Reference Include="VisualDesignCafe.Rendering">
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="VisualDesignCafe.Rendering.Nature">
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.Nature.dll</HintPath>
+    </Reference>
+    <Reference Include="VisualDesignCafe.Rendering.Nature.Editor">
+      <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.Nature.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="VisualDesignCafe.Editor.OpenWorldNature">
       <HintPath>E:/unity/ProjectLH/PeojectLH/Assets/bg/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Editor.OpenWorldNature.dll</HintPath>
     </Reference>

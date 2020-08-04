@@ -6,13 +6,13 @@ FBXHeaderExtension:  {
 	FBXVersion: 7400
 	CreationTimeStamp:  {
 		Version: 1000
-		Year: 2019
-		Month: 11
-		Day: 10
-		Hour: 17
-		Minute: 17
-		Second: 52
-		Millisecond: 215
+		Year: 2020
+		Month: 5
+		Day: 14
+		Hour: 12
+		Minute: 10
+		Second: 28
+		Millisecond: 388
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,8 +28,8 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "C:\Users\Max\AppData\Local\Temp\tmp58c3d70.tmp"
-			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\Max\AppData\Local\Temp\tmp58c3d70.tmp"
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\Max\AppData\Local\Temp\tmp5b9053a8.tmp"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\Max\AppData\Local\Temp\tmp5b9053a8.tmp"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", ""
 			P: "Original|ApplicationName", "KString", "", "", "Unity FBX Exporter"
@@ -75,7 +75,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 3163262824560, "Scene", "Scene" {
+	Document: 1715847685136, "Scene", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -95,7 +95,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 13
+	Count: 11
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -215,7 +215,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Texture" {
-		Count: 2
+		Count: 1
 		PropertyTemplate: "FbxFileTexture" {
 			Properties70:  {
 				P: "TextureTypeUse", "enum", "", "",0
@@ -238,7 +238,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Video" {
-		Count: 2
+		Count: 1
 		PropertyTemplate: "FbxVideo" {
 			Properties70:  {
 				P: "Path", "KString", "XRefUrl", "", ""
@@ -270,7 +270,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 3165469061744, "Geometry::Scene", "Mesh" {
+	Geometry: 1715843894144, "Geometry::Scene", "Mesh" {
 		Vertices: *1674 {
 			a: -0,0,7.66687914729118,-7.63242170214653,0,-3.33623750847778e-07,6.70259847623811e-07,0,-7.66687914729118,7.8264132142067,0,9.33290444926627e-08,-1.34051969524762e-06,0,7.66687914729118,-9.22449976205826,42.5478428602219,1.46305337548256,-15.5795991420746,42.1975404024124,-4.92915287613869,-9.20641049742699,43.0881977081299,-11.302600055933,-2.81915813684464,43.439444899559,-4.85850274562836,-9.22450050711632,42.5478428602219,1.46305337548256,-15.1206657290459,70.6851184368134,-1.46564543247223,-20.8469972014427,70.1921880245209,-7.20280632376671,-15.1141583919525,71.4536547660828,-13.04811835289,-9.44698080420494,71.9223618507385,-7.08159729838371,-15.120667219162,70.6851184368134,-1.46564543247223,-20.2668741345406,97.2525358200073,-1.67652294039726,-25.5430400371552,96.7309772968292,-7.0565789937973,-20.2668771147728,98.0882525444031,-12.1563777327538,-15.1618242263794,98.5895097255707,-6.90837278962135,-24.8417750000954,121.015083789825,2.19670366495848,-29.5547038316727,120.613360404968,-2.57106311619282,-24.8346924781799,121.772468090057,-7.08286091685295,-20.1779678463936,122.174668312073,-2.43647526949644,-24.8417764902115,121.015083789825,2.19670366495848,-29.3216943740845,144.395732879639,9.06205549836159,-33.338463306427,144.194769859314,4.84761223196983,-29.3017238378525,145.032644271851,0.724480301141739,-25.1427292823792,145.251393318176,4.94795851409435,-34.9774718284607,193.881845474243,18.7116160988808,-38.2178753614426,193.863809108734,15.442031621933,-34.9308013916016,194.135165214539,12.2656606137753,-31.7911148071289,194.150066375732,15.4998153448105,-32.4268162250519,258.029198646545,10.4740671813488,-34.7410023212433,257.929706573486,8.13509747385979,-32.3636054992676,257.761669158936,5.8607954531908,-30.1415234804153,257.862734794617,8.20200145244598,-28.0273973941803,309.998273849487,-0.234477082267404,-29.7601521015167,309.839463233948,-1.98223609477282,-27.9726982116699,309.472012519836,-3.71086001396179,-26.2615323066711,309.642028808594,-1.89730022102594,-28.0005693435669,309.740161895752,-1.9395187497139,
 -30.2543431520462,142.61462688446,7.23367631435394,-33.1108540296555,145.474874973297,5.48584833741188,-31.4502388238907,149.297857284546,8.40560495853424,-26.5283823013306,145.50279378891,6.35522753000259,-30.2543431520462,142.61462688446,7.23367407917976,-67.5153851509094,197.649610042572,58.4417819976807,-67.6112949848175,197.746741771698,58.2710444927216,-67.4413800239563,197.883141040802,58.2531094551086,-67.3445463180542,197.786116600037,58.4244072437286,-31.9296956062317,272.040510177612,3.96824032068253,-29.7807484865189,272.938680648804,4.44175899028778,-31.8858325481415,275.835108757019,3.5341665148735,-33.1045478582382,273.804068565369,4.92926761507988,-31.9296956062317,272.040510177612,3.9682399481535,-60.1750314235687,332.450580596924,-31.994041800499,-60.0762486457825,332.502818107605,-31.9863826036453,-60.1078569889069,332.547640800476,-31.8876206874847,-60.2069914340973,332.494592666626,-31.8963468074799,-31.4937144517899,239.925575256348,9.34136286377907,-30.7861924171448,241.732931137085,11.1252591013908,-31.2301397323608,244.302201271057,8.99301469326019,-32.6647728681564,242.02344417572,7.79897049069405,1.51675036177039,302.254891395569,-19.304583966732,1.51710528880358,302.311253547668,-19.1862538456917,1.40063595026731,302.364993095398,-19.2082643508911,1.39794992282987,302.309370040894,-19.327749311924,-21.93793207407,118.985390663147,-0.631412025541067,-24.8187810182571,121.995866298676,2.26998887956142,-22.6149842143059,126.540756225586,0.47471490688622,-24.2888569831848,121.043586730957,-6.8486362695694,-21.9379335641861,118.985390663147,-0.631411094218493,16.4512351155281,185.636711120605,36.9179129600525,16.2275731563568,185.729706287384,36.991474032402,16.2193804979324,185.860455036163,36.7746263742447,16.4387822151184,185.766506195068,36.7071837186813,-46.8444794416428,167.405426502228,27.4255484342575,-46.3453710079193,168.911695480347,28.6105662584305,-48.0555146932602,168.544387817383,30.1299571990967,-48.2829391956329,166.846966743469,28.9574086666107,-67.5387799739838,225.238490104675,52.3436427116394,
@@ -579,7 +579,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 3165380065216, "Model::Shrub_Maple_LOD0", "Mesh" {
+	Model: 1714817887472, "Model::Shrub_Maple_LOD0", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -589,7 +589,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 3165671317440, "Model::Tree_Normals", "Null" {
+	Model: 1715492754944, "Model::Tree_Normals", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -600,7 +600,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671311440, "Model::Tree_Normals__1_", "Null" {
+	Model: 1715492730944, "Model::Tree_Normals__1_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -611,7 +611,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671335440, "Model::Tree_Normals__2_", "Null" {
+	Model: 1716243146608, "Model::Tree_Normals__2_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -622,7 +622,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671327440, "Model::Tree_Normals__3_", "Null" {
+	Model: 1716243160608, "Model::Tree_Normals__3_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -633,7 +633,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Material: 3164747240912, "Material::Maple_Optimized_Bark", "" {
+	Material: 1715844219488, "Material::Maple_Optimized_Bark", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -646,7 +646,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 3164747241312, "Material::Maple_Optimized_Leaf", "" {
+	Material: 1715844231888, "Material::Maple_Optimized_Leaf", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -659,17 +659,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Video: 3165668031616, "Video::DiffuseColor_Texture", "Clip" {
-		Type: "Clip"
-		Properties70:  {
-			P: "Path", "KString", "XRefUrl", "", "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Albedo.tga"
-			P: "RelPath", "KString", "XRefUrl", "", "..\..\..\..\..\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Albedo.tga"
-		}
-		UseMipMap: 0
-		Filename: "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Albedo.tga"
-		RelativeFilename: "..\..\..\..\..\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Albedo.tga"
-	}
-	Video: 3165668024896, "Video::NormalMap_Texture", "Clip" {
+	Video: 1716095828720, "Video::NormalMap_Texture", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Normal.tga"
@@ -679,19 +669,7 @@ Objects:  {
 		Filename: "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Normal.tga"
 		RelativeFilename: "..\..\..\..\..\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Normal.tga"
 	}
-	Texture: 3165467555696, "Texture::DiffuseColor_Texture", "" {
-		Type: "TextureVideoClip"
-		Version: 202
-		TextureName: "Texture::DiffuseColor_Texture"
-		Media: "Video::DiffuseColor_Texture"
-		FileName: "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Albedo.tga"
-		RelativeFilename: "..\..\..\..\..\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Maple_Albedo.tga"
-		ModelUVTranslation: 0,0
-		ModelUVScaling: 1,1
-		Texture_Alpha_Source: "None"
-		Cropping: 0,0,0,0
-	}
-	Texture: 3165668036416, "Texture::NormalMap_Texture", "" {
+	Texture: 1716095825360, "Texture::NormalMap_Texture", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::NormalMap_Texture"
@@ -711,52 +689,40 @@ Objects:  {
 Connections:  {
 	
 	;Model::Shrub_Maple_LOD0, Model::RootNode
-	C: "OO",3165380065216,0
+	C: "OO",1714817887472,0
 	
 	;Model::Tree_Normals, Model::Shrub_Maple_LOD0
-	C: "OO",3165671317440,3165380065216
+	C: "OO",1715492754944,1714817887472
 	
 	;Model::Tree_Normals__1_, Model::Shrub_Maple_LOD0
-	C: "OO",3165671311440,3165380065216
+	C: "OO",1715492730944,1714817887472
 	
 	;Model::Tree_Normals__2_, Model::Shrub_Maple_LOD0
-	C: "OO",3165671335440,3165380065216
+	C: "OO",1716243146608,1714817887472
 	
 	;Model::Tree_Normals__3_, Model::Shrub_Maple_LOD0
-	C: "OO",3165671327440,3165380065216
+	C: "OO",1716243160608,1714817887472
 	
 	;Material::Maple_Optimized_Bark, Model::Shrub_Maple_LOD0
-	C: "OO",3164747240912,3165380065216
+	C: "OO",1715844219488,1714817887472
 	
 	;Material::Maple_Optimized_Leaf, Model::Shrub_Maple_LOD0
-	C: "OO",3164747241312,3165380065216
+	C: "OO",1715844231888,1714817887472
 	
 	;Geometry::Scene, Model::Shrub_Maple_LOD0
-	C: "OO",3165469061744,3165380065216
-	
-	;Texture::DiffuseColor_Texture, Material::Maple_Optimized_Bark
-	C: "OO",3165467555696,3164747240912
+	C: "OO",1715843894144,1714817887472
 	
 	;Texture::NormalMap_Texture, Material::Maple_Optimized_Bark
-	C: "OO",3165668036416,3164747240912
-	
-	;Texture::DiffuseColor_Texture, Material::Maple_Optimized_Bark
-	C: "OP",3165467555696,3164747240912, "DiffuseColor"
+	C: "OO",1716095825360,1715844219488
 	
 	;Texture::NormalMap_Texture, Material::Maple_Optimized_Bark
-	C: "OP",3165668036416,3164747240912, "NormalMap"
-	
-	;Video::DiffuseColor_Texture, Texture::DiffuseColor_Texture
-	C: "OO",3165668031616,3165467555696
+	C: "OP",1716095825360,1715844219488, "NormalMap"
 	
 	;Video::NormalMap_Texture, Texture::NormalMap_Texture
-	C: "OO",3165668024896,3165668036416
-	
-	;Texture::DiffuseColor_Texture, Material::Maple_Optimized_Leaf
-	C: "OP",3165467555696,3164747241312, "DiffuseColor"
+	C: "OO",1716095828720,1716095825360
 	
 	;Texture::NormalMap_Texture, Material::Maple_Optimized_Leaf
-	C: "OP",3165668036416,3164747241312, "NormalMap"
+	C: "OP",1716095825360,1715844231888, "NormalMap"
 }
 ;Takes section
 ;----------------------------------------------------

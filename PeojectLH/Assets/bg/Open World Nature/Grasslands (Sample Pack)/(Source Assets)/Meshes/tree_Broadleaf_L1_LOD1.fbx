@@ -6,13 +6,13 @@ FBXHeaderExtension:  {
 	FBXVersion: 7400
 	CreationTimeStamp:  {
 		Version: 1000
-		Year: 2019
-		Month: 11
-		Day: 10
-		Hour: 17
-		Minute: 17
-		Second: 55
-		Millisecond: 610
+		Year: 2020
+		Month: 5
+		Day: 14
+		Hour: 12
+		Minute: 10
+		Second: 33
+		Millisecond: 736
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,8 +28,8 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "C:\Users\Max\AppData\Local\Temp\tmp4b35e8f0.tmp"
-			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\Max\AppData\Local\Temp\tmp4b35e8f0.tmp"
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\Max\AppData\Local\Temp\tmp47324030.tmp"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\Max\AppData\Local\Temp\tmp47324030.tmp"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", ""
 			P: "Original|ApplicationName", "KString", "", "", "Unity FBX Exporter"
@@ -75,7 +75,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 3163262821488, "Scene", "Scene" {
+	Document: 1715102267600, "Scene", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -95,7 +95,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 17
+	Count: 15
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -215,7 +215,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Texture" {
-		Count: 2
+		Count: 1
 		PropertyTemplate: "FbxFileTexture" {
 			Properties70:  {
 				P: "TextureTypeUse", "enum", "", "",0
@@ -238,7 +238,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Video" {
-		Count: 2
+		Count: 1
 		PropertyTemplate: "FbxVideo" {
 			Properties70:  {
 				P: "Path", "KString", "XRefUrl", "", ""
@@ -270,7 +270,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 3164248222256, "Geometry::Scene", "Mesh" {
+	Geometry: 1715843881856, "Geometry::Scene", "Mesh" {
 		Vertices: *7065 {
 			a: -0,0,55.239349603653,-81.4939916133881,0,-3.56221541153445e-06,3.39178747310598e-06,0,-38.7975245714188,64.2861604690552,0,7.66604824065098e-07,-9.6583548270246e-06,0,55.239349603653,-6.07537887990475,42.8852796554565,43.3052003383636,-44.3869590759277,43.007555603981,5.76864294707775,-6.06394708156586,43.5429573059082,-30.8157950639725,30.9105962514877,43.4216350317001,5.78392930328846,-6.07538558542728,42.8852796554565,43.3052003383636,-10.763505846262,98.0413675308228,46.3997632265091,-46.184903383255,98.8792896270752,10.7597678899765,-10.7625208795071,99.6188104152679,-24.4227811694145,23.9603325724602,98.7919688224792,10.7587978243828,-10.7635125517845,98.0413675308228,46.3997632265091,0.244851713068783,196.122550964355,36.865970492363,-32.0848047733307,201.239800453186,4.5976459980011,0.247891712933779,199.923586845398,-28.000670671463,32.0871978998184,194.857680797577,4.22667488455772,0.244846055284142,196.122550964355,36.865970492363,8.56552198529243,290.869450569153,50.5596339702606,-19.9914067983627,295.634841918945,21.8860819935799,9.27655845880508,301.359438896179,-6.90009146928787,38.4512335062027,296.425318717957,22.7535933256149,8.56551676988602,290.869450569153,50.5596339702606,-3.2509371638298,388.991045951843,65.9830927848816,-28.5111218690872,392.106509208679,39.4870460033417,-2.60973498225212,398.450255393982,14.1665115952492,24.404813349247,395.436954498291,40.7498300075531,-3.25094163417816,388.991045951843,65.9830927848816,-4.72597144544125,490.388250350952,81.3233554363251,-27.3217409849167,491.482925415039,57.4569523334503,-3.8343608379364,493.782806396484,35.0064486265182,18.041467666626,492.700672149658,58.4194540977478,-4.72597554326057,490.388250350952,81.3233554363251,-8.97608622908592,591.288948059082,75.0553071498871,-29.0091097354889,589.208364486694,54.0129840373993,-8.14232677221298,592.60950088501,34.0895146131516,11.2055413424969,594.601392745972,55.0053000450134,-8.97608995437622,591.288948059082,75.0553071498871,-31.2236875295639,688.917016983032,80.380767583847,
 -47.6656407117844,687.754535675049,63.3422076702118,-30.4270267486572,689.086818695068,47.1733450889587,-13.6956214904785,690.270900726318,64.1700267791748,-31.2236905097961,688.917016983032,80.380767583847,-23.4500020742416,788.112688064575,69.3209767341614,-37.0927095413208,789.669466018677,54.8679769039154,-22.7938294410706,788.556861877441,41.0442262887955,-8.60422253608704,786.948251724243,55.4863214492798,-23.4500035643578,788.112688064575,69.3209767341614,-12.3096629977226,886.238765716553,78.7146747112274,-23.4724938869476,888.276100158691,67.0637249946594,-11.6757825016975,887.699317932129,55.9385359287262,-1.15031516179442,885.738182067871,67.5222277641296,-12.3096652328968,886.238765716553,78.7146747112274,-1.02922413498163,986.640071868896,77.2492945194244,-9.56452935934067,986.084651947021,68.3516800403595,-0.738507509231567,986.053276062012,59.8445892333984,7.76819661259651,986.603832244873,68.6236917972565,-1.02922562509775,986.640071868896,77.2492945194244,-17.9318398237228,1085.53743362427,66.8221533298492,-24.3662551045418,1084.52167510986,60.4162573814392,-17.6782190799713,1083.63208770752,54.2997360229492,-11.5260861814022,1084.63888168335,60.6584787368774,-17.931841313839,1085.53743362427,66.8221533298492,-2.18599401414394,1181.35633468628,43.200808763504,-6.4011849462986,1181.03361129761,38.7606710195541,-2.01211236417294,1180.49430847168,34.4006896018982,2.47954968363047,1180.82113265991,38.9569610357285,-2.185994759202,1181.35633468628,43.200808763504,-33.7848216295242,1456.62174224854,51.4824628829956,-34.7125142812729,1456.63719177246,50.5255818367004,-33.7562173604965,1456.79664611816,49.5660364627838,-32.8369140625,1456.77652359009,50.566291809082,-33.7708443403244,1456.70719146729,50.5460202693939,-5.35110905766487,329.799127578735,46.6713696718216,-17.760506272316,352.883124351501,39.9818956851959,-8.40474516153336,377.019476890564,56.9490253925323,9.32130664587021,351.531100273132,52.5285840034485,-5.35110980272293,329.799127578735,46.6713666915894,-50.4399240016937,400.316619873047,138.024055957794,
@@ -1334,7 +1334,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 3164298180576, "Model::Broadleaf_L1_LOD1", "Mesh" {
+	Model: 1714817891472, "Model::Broadleaf_L1_LOD1", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1344,7 +1344,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 3165671321440, "Model::Tree_Normals", "Null" {
+	Model: 1715492754944, "Model::Tree_Normals", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1355,7 +1355,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671337440, "Model::Tree_Normals__1_", "Null" {
+	Model: 1715492730944, "Model::Tree_Normals__1_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1366,7 +1366,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671309440, "Model::Tree_Normals__2_", "Null" {
+	Model: 1716243394624, "Model::Tree_Normals__2_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1377,7 +1377,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671319440, "Model::Tree_Normals__3_", "Null" {
+	Model: 1716243376624, "Model::Tree_Normals__3_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1388,7 +1388,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671331440, "Model::Tree_Normals__4_", "Null" {
+	Model: 1716243380624, "Model::Tree_Normals__4_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1399,7 +1399,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671323440, "Model::Tree_Normals__5_", "Null" {
+	Model: 1716243378624, "Model::Tree_Normals__5_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1410,7 +1410,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671335440, "Model::Tree_Normals__6_", "Null" {
+	Model: 1716243390624, "Model::Tree_Normals__6_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1421,7 +1421,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 3165671339440, "Model::Tree_Normals__7_", "Null" {
+	Model: 1716243382624, "Model::Tree_Normals__7_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -1432,7 +1432,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Material: 3164747238912, "Material::Broadleaf_Optimized_Bark", "" {
+	Material: 1715849034848, "Material::Broadleaf_Optimized_Bark", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -1445,7 +1445,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 3164747231712, "Material::Broadleaf_Optimized_Leaf", "" {
+	Material: 1715849034448, "Material::Broadleaf_Optimized_Leaf", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -1458,17 +1458,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Video: 3165668032576, "Video::DiffuseColor_Texture", "Clip" {
-		Type: "Clip"
-		Properties70:  {
-			P: "Path", "KString", "XRefUrl", "", "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Albedo.tga"
-			P: "RelPath", "KString", "XRefUrl", "", "..\..\..\..\..\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Albedo.tga"
-		}
-		UseMipMap: 0
-		Filename: "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Albedo.tga"
-		RelativeFilename: "..\..\..\..\..\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Albedo.tga"
-	}
-	Video: 3165668033056, "Video::NormalMap_Texture", "Clip" {
+	Video: 1716095830160, "Video::NormalMap_Texture", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Normal.tga"
@@ -1478,19 +1468,7 @@ Objects:  {
 		Filename: "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Normal.tga"
 		RelativeFilename: "..\..\..\..\..\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Normal.tga"
 	}
-	Texture: 3165467555696, "Texture::DiffuseColor_Texture", "" {
-		Type: "TextureVideoClip"
-		Version: 202
-		TextureName: "Texture::DiffuseColor_Texture"
-		Media: "Video::DiffuseColor_Texture"
-		FileName: "C:\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Albedo.tga"
-		RelativeFilename: "..\..\..\..\..\Visual Design Cafe\Projects\Open World Nature\Grasslands\Unity\Open World Nature Tree Creator\Assets\Open World Nature\Grassland\(Source Assets)\Textures\Trees\Tree_Broadleaf_Albedo.tga"
-		ModelUVTranslation: 0,0
-		ModelUVScaling: 1,1
-		Texture_Alpha_Source: "None"
-		Cropping: 0,0,0,0
-	}
-	Texture: 3165668026336, "Texture::NormalMap_Texture", "" {
+	Texture: 1716095827280, "Texture::NormalMap_Texture", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::NormalMap_Texture"
@@ -1510,64 +1488,52 @@ Objects:  {
 Connections:  {
 	
 	;Model::Broadleaf_L1_LOD1, Model::RootNode
-	C: "OO",3164298180576,0
+	C: "OO",1714817891472,0
 	
 	;Model::Tree_Normals, Model::Broadleaf_L1_LOD1
-	C: "OO",3165671321440,3164298180576
+	C: "OO",1715492754944,1714817891472
 	
 	;Model::Tree_Normals__1_, Model::Broadleaf_L1_LOD1
-	C: "OO",3165671337440,3164298180576
+	C: "OO",1715492730944,1714817891472
 	
 	;Model::Tree_Normals__2_, Model::Broadleaf_L1_LOD1
-	C: "OO",3165671309440,3164298180576
+	C: "OO",1716243394624,1714817891472
 	
 	;Model::Tree_Normals__3_, Model::Broadleaf_L1_LOD1
-	C: "OO",3165671319440,3164298180576
+	C: "OO",1716243376624,1714817891472
 	
 	;Model::Tree_Normals__4_, Model::Broadleaf_L1_LOD1
-	C: "OO",3165671331440,3164298180576
+	C: "OO",1716243380624,1714817891472
 	
 	;Model::Tree_Normals__5_, Model::Broadleaf_L1_LOD1
-	C: "OO",3165671323440,3164298180576
+	C: "OO",1716243378624,1714817891472
 	
 	;Model::Tree_Normals__6_, Model::Broadleaf_L1_LOD1
-	C: "OO",3165671335440,3164298180576
+	C: "OO",1716243390624,1714817891472
 	
 	;Model::Tree_Normals__7_, Model::Broadleaf_L1_LOD1
-	C: "OO",3165671339440,3164298180576
+	C: "OO",1716243382624,1714817891472
 	
 	;Material::Broadleaf_Optimized_Bark, Model::Broadleaf_L1_LOD1
-	C: "OO",3164747238912,3164298180576
+	C: "OO",1715849034848,1714817891472
 	
 	;Material::Broadleaf_Optimized_Leaf, Model::Broadleaf_L1_LOD1
-	C: "OO",3164747231712,3164298180576
+	C: "OO",1715849034448,1714817891472
 	
 	;Geometry::Scene, Model::Broadleaf_L1_LOD1
-	C: "OO",3164248222256,3164298180576
-	
-	;Texture::DiffuseColor_Texture, Material::Broadleaf_Optimized_Bark
-	C: "OO",3165467555696,3164747238912
+	C: "OO",1715843881856,1714817891472
 	
 	;Texture::NormalMap_Texture, Material::Broadleaf_Optimized_Bark
-	C: "OO",3165668026336,3164747238912
-	
-	;Texture::DiffuseColor_Texture, Material::Broadleaf_Optimized_Bark
-	C: "OP",3165467555696,3164747238912, "DiffuseColor"
+	C: "OO",1716095827280,1715849034848
 	
 	;Texture::NormalMap_Texture, Material::Broadleaf_Optimized_Bark
-	C: "OP",3165668026336,3164747238912, "NormalMap"
-	
-	;Video::DiffuseColor_Texture, Texture::DiffuseColor_Texture
-	C: "OO",3165668032576,3165467555696
+	C: "OP",1716095827280,1715849034848, "NormalMap"
 	
 	;Video::NormalMap_Texture, Texture::NormalMap_Texture
-	C: "OO",3165668033056,3165668026336
-	
-	;Texture::DiffuseColor_Texture, Material::Broadleaf_Optimized_Leaf
-	C: "OP",3165467555696,3164747231712, "DiffuseColor"
+	C: "OO",1716095830160,1716095827280
 	
 	;Texture::NormalMap_Texture, Material::Broadleaf_Optimized_Leaf
-	C: "OP",3165668026336,3164747231712, "NormalMap"
+	C: "OP",1716095827280,1715849034448, "NormalMap"
 }
 ;Takes section
 ;----------------------------------------------------

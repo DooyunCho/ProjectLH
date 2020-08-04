@@ -193,6 +193,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c5d5409d5cd869e418f6010ded62c9e8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79c86e5055ebaa84b8687a21b6ee144f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5d5409d5cd869e418f6010ded62c9e8, type: 3}
 --- !u!4 &4988958183698229786 stripped
@@ -214,6 +218,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8188756225420951144}
     m_Modifications:
+    - target: {fileID: 2300000, guid: 3e522d5b2e9dea745a17e8e6f89d6543, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79c86e5055ebaa84b8687a21b6ee144f, type: 2}
     - target: {fileID: 100000, guid: 3e522d5b2e9dea745a17e8e6f89d6543, type: 3}
       propertyPath: m_Name
       value: tree_Broadleaf_Bush_M1_LOD0

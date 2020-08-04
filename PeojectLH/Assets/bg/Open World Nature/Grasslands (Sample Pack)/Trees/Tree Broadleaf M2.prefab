@@ -152,6 +152,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6170718696454434117}
     m_Modifications:
+    - target: {fileID: 2300000, guid: 25622193953862f4aaf17c0a781ec885, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c912c6d608cde384d8c0eefa9b0102aa, type: 2}
+    - target: {fileID: 2300000, guid: 25622193953862f4aaf17c0a781ec885, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e2fe1b6ca53de71428562e446d83b05a, type: 2}
     - target: {fileID: 100000, guid: 25622193953862f4aaf17c0a781ec885, type: 3}
       propertyPath: m_Name
       value: tree_Broadleaf_M2_LOD0
@@ -237,6 +245,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6170718696454434117}
     m_Modifications:
+    - target: {fileID: 2300000, guid: 55a74ff3e9a64f74097c7c4d620b62ce, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c912c6d608cde384d8c0eefa9b0102aa, type: 2}
+    - target: {fileID: 2300000, guid: 55a74ff3e9a64f74097c7c4d620b62ce, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e2fe1b6ca53de71428562e446d83b05a, type: 2}
     - target: {fileID: 100000, guid: 55a74ff3e9a64f74097c7c4d620b62ce, type: 3}
       propertyPath: m_Name
       value: tree_Broadleaf_M2_LOD1
